@@ -231,7 +231,7 @@ GEM
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
-    pathutil (0.16.2)
+    pathutil (0.16.0)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
     racc (1.6.0)
@@ -275,8 +275,10 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   hawkins
+  jekyll (~> 3.9.0)
   jekyll-feed
   jekyll-sitemap
+  pathutil (= 0.16.0)
 
 BUNDLED WITH
    2.2.19

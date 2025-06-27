@@ -17,42 +17,80 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am jiayi Chen, a graduate in Automation from Tongji University (Class of 2019). Currently, I am pursuing my Master’s in Computer Science and Technology at Harbin Institute of Technology (HIT). Meanwhile, I serve as a Research Assistant  at the IRPN Lab, Systems Hub, Hong Kong University of Science and Technology (Guangzhou), where my research focuses on Embodied Intelligence.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+<!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.06*: &nbsp;🎉 ["Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding"](https://arxiv.org/abs/2503.02310) is accepted by IROS2025.
+- *2025.05*: &nbsp;🎉 Our GitHub repository([Embodied-AI-Paper-TopConf
+](https://github.com/Songwxuan/Embodied-AI-Paper-TopConf)), which collects academic papers in the field of embodied intelligence, has garnered over 300 stars. 
 
+- *2025.06*: &nbsp;🎉 Our open-source project [LLaVA-VLA](https://github.com/OpenHelix-Team/LLaVA-VLA), a Vision-Language-Action model built upon the popular open-source VLM LLaVA, has received over 70 stars.
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS2025</div><img src='images/PD-VLA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding](https://arxiv.org/pdf/2503.02310)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Wenxuan Song¹\***, **Jiayi Chen¹\***, **Pengxiang Ding²˒³**, **Han Zhao²˒³**, **Wei Zhao²**,**Zhide Zhong¹**,  **Zongyuan Ge⁴**, **Jun Ma¹**,  **Haoang Li¹‡**
+
+<small>¹ IRPN Lab, HKUST(GZ) ² MiLab, Westlake University ³ Zhejiang University ⁴ Monash University</small>  
+<!-- <small>* Equal Contribution  † Project Leader  ‡ Corresponding Author</small> -->
+
+We propose parallel decoding framework for VLA models integrated with action chunking. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/rational-vla.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-# 🎖 Honors and Awards
+[RationalVLA: A Rational Vision-Language-Action Model with Dual System](https://arxiv.org/pdf/2506.10826)
+
+**Wenxuan Song, Jiayi Chen, Wenxue Li, Xu He, Han Zhao, Can Cui, Pengxiang Ding, Shiyan Su, Feilong Tang,Donglin Wang, Xuelian Cheng, Zongyuan Ge, Xinhu Zheng, Zhe Liu, Hesheng Wang, Haoang Li**
+
+<!-- <small>¹ IRPN Lab, HKUST(GZ) ² MiLab, Westlake University ³ Zhejiang University</small>   -->
+<!-- <small>* Equal Contribution  † Project Leader  ‡ Corresponding Author</small> -->
+- We introduce a new benchmark, the Rational Manipula-tion (RAMA) with defective instructions in 6 dimensions.
+- We propose Rational Vision-Language-Action model (RationalVLA). It is a dual system for the robotic armto perceive the environment, handle unseen and defective instructions effectively, and demonstrate performant manipulation capabilities. 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/ceed-vla.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CEED-VLA: Consistency Vision-Language-Action Model with Early-Exit Decoding](https://arxiv.org/pdf/2506.13725)
+
+**Wenxuan Song¹\***, **Jiayi Chen¹\***, **Pengxiang Ding²˒³†**, **Yuxin Huang¹**, **Han Zhao²˒³**, **Donglin Wang²**,  **Haoang Li¹‡**
+
+<small>¹ IRPN Lab, HKUST(GZ) ² MiLab, Westlake University ³ Zhejiang University</small>  
+
+<!-- **Wenxuan Song¹\***, **Jiayi Chen¹\***, **Pengxiang Ding²˒³**, **Han Zhao²˒³**, **Wei Zhao²**,**Zhide Zhong¹**,  **Zongyuan Ge⁴**, **Jun Ma¹**,  **Haoang Li¹‡**
+
+<small>¹ IRPN Lab, HKUST(GZ) ² MiLab, Westlake University ³ Zhejiang University ⁴ Monash University</small>   -->
+<!-- <small>* Equal Contribution  † Project Leader  ‡ Corresponding Author</small> -->
+- Wepropose CEED-VLA, a universal acceleration method for significant inference speedup while maintaining manipulation performance.
+- We conduct a consistency distillation process to unlock the model’s capabilities of fast inference.
+- We identify the inefficient iteration as the bottleneck of Jacobi decoding’s speedup and propose the early-exit decoding to solve it.
+</div>
+</div>
+
+<!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
+
+<!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.06 - 2025.06 (now)*, Pursuing a Master's degree in Computer Science and Technology at Harbin Institute of Technology.
+- *2019.09 - 2023.06*, Studied Automation at Tongji University and obtained a Bachelor's degree in Engineering.
 
-# 💬 Invited Talks
+<!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2024.2 - 2024.06*, IO Intelligence, China.
