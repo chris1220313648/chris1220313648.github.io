@@ -17,21 +17,74 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am jiayi Chen, a graduate in Automation from Tongji University (Class of 2019). Currently, I am pursuing my Master’s in Computer Science and Technology at Harbin Institute of Technology (HIT). Meanwhile, I serve as a Research Assistant  at the IRPN Lab, Systems Hub, Hong Kong University of Science and Technology (Guangzhou), where my research focuses on Embodied Intelligence.
+I am Jiayi Chen, a graduate in Automation from Tongji University (Class of 2019). Currently, I am pursuing my Master’s in Computer Science and Technology at Harbin Institute of Technology (HIT). Meanwhile, I serve as a Research Assistant  at the IRPN Lab, Systems Hub, Hong Kong University of Science and Technology (Guangzhou), where my research focuses on Embodied Intelligence.
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
-# 🔥 News
-- *2025.06*: &nbsp;🎉 ["Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding"](https://arxiv.org/abs/2503.02310) is accepted by IROS2025.
-- *2025.05*: &nbsp;🎉 Our GitHub repository([Embodied-AI-Paper-TopConf
+# 🔥 Project
+
+- Our GitHub repository([Embodied-AI-Paper-TopConf
 ](https://github.com/Songwxuan/Embodied-AI-Paper-TopConf)), which collects academic papers in the field of embodied intelligence, has garnered over 300 stars. 
 
-- *2025.06*: &nbsp;🎉 Our open-source project [LLaVA-VLA](https://github.com/OpenHelix-Team/LLaVA-VLA), a Vision-Language-Action model built upon the popular open-source VLM LLaVA, has received over 70 stars.
+- Our open-source project [LLaVA-VLA](https://github.com/OpenHelix-Team/LLaVA-VLA), a Vision-Language-Action model built upon the popular open-source VLM LLaVA, has received over 70 stars.
 # 📝 Publications 
+
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/ud-vla.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denoising Diffusion Process](https://irpn-eai.github.io/UD-VLA.github.io/)
+
+**Jiayi Chen**, **Wenxuan Song**, **Pengxiang Ding**, **Ziyang Zhou**, **Han Zhao**, **Feilong Tang**, **Donglin Wang**, **Haoang Li**
+</div>
+</div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/survey.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[TowardsaUnifiedUnderstanding of Robot Manipulation: A Comprehensive Survey](https://arxiv.org/abs/2510.10903)
+
+Shuanghao Bai, Wenxuan Song, Jiayi Chen, Yuheng Ji, Zhide Zhong, Jin Yang, Han Zhao, Wanqi Zhou, Wei Zhao, Zhe Li, Pengxiang Ding, Cheng Chi, Haoang Li, Chang Xu, Xiaolong Zheng, Donglin Wang, Shanghang Zhang, Badong Chen
+</div>
+</div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/flowvla_teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[FlowVLA: Thinking in Motion with a Visual Chain of Thought](https://irpn-lab.github.io/FlowVLA/)
+
+**Zhide Zhong**, **Haodong Yan**, **Junfeng Li**, **Xiangchen Liu**, **Xin Gong**, **Wenxuan Song**, **Jiayi Chen**, **Haoang Li**
+
+</div>
+</div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/ceed-vla.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1"> 
+[CEED-VLA: Consistency Vision-Language-Action Model with Early-Exit Decoding](https://arxiv.org/pdf/2506.13725)
+
+**Wenxuan Song¹\***, **Jiayi Chen¹\***, **Pengxiang Ding²˒³†**, **Yuxin Huang¹**, **Han Zhao²˒³**, **Donglin Wang²**,  **Haoang Li¹‡**
+
+<small>¹ IRPN Lab, HKUST(GZ) ² MiLab, Westlake University ³ Zhejiang University</small>  
+
+<!-- **Wenxuan Song¹\***, **Jiayi Chen¹\***, **Pengxiang Ding²˒³**, **Han Zhao²˒³**, **Wei Zhao²**,**Zhide Zhong¹**,  **Zongyuan Ge⁴**, **Jun Ma¹**,  **Haoang Li¹‡**
+
+<small>¹ IRPN Lab, HKUST(GZ) ² MiLab, Westlake University ³ Zhejiang University ⁴ Monash University</small>   -->
+<!-- <small>* Equal Contribution  † Project Leader  ‡ Corresponding Author</small> -->
+- Wepropose CEED-VLA, a universal acceleration method for significant inference speedup while maintaining manipulation performance.
+- We conduct a consistency distillation process to unlock the model’s capabilities of fast inference.
+- We identify the inefficient iteration as the bottleneck of Jacobi decoding’s speedup and propose the early-exit decoding to solve it.
+</div>
+</div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/reconvla.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1"> 
+
+[ReconVLA: Reconstructive Vision\textendash Language\textendash Action Model as Effective Robot Perceiver](https://zionchow.github.io/ReconVLA/)
+
+**Wenxuan Song**, **Ziyang Zhou**, **Han Zhao**, **Jiayi Chen**, **Pengxiang Ding**, **Haodong Yan**, **Yuxin Huang**, **Feilong Tang**, **Donglin Wang**, **Haoang Li**
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS2025</div><img src='images/PD-VLA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 
 [Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding](https://arxiv.org/pdf/2503.02310)
 
@@ -59,24 +112,7 @@ We propose parallel decoding framework for VLA models integrated with action chu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/ceed-vla.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[CEED-VLA: Consistency Vision-Language-Action Model with Early-Exit Decoding](https://arxiv.org/pdf/2506.13725)
-
-**Wenxuan Song¹\***, **Jiayi Chen¹\***, **Pengxiang Ding²˒³†**, **Yuxin Huang¹**, **Han Zhao²˒³**, **Donglin Wang²**,  **Haoang Li¹‡**
-
-<small>¹ IRPN Lab, HKUST(GZ) ² MiLab, Westlake University ³ Zhejiang University</small>  
-
-<!-- **Wenxuan Song¹\***, **Jiayi Chen¹\***, **Pengxiang Ding²˒³**, **Han Zhao²˒³**, **Wei Zhao²**,**Zhide Zhong¹**,  **Zongyuan Ge⁴**, **Jun Ma¹**,  **Haoang Li¹‡**
-
-<small>¹ IRPN Lab, HKUST(GZ) ² MiLab, Westlake University ³ Zhejiang University ⁴ Monash University</small>   -->
-<!-- <small>* Equal Contribution  † Project Leader  ‡ Corresponding Author</small> -->
-- Wepropose CEED-VLA, a universal acceleration method for significant inference speedup while maintaining manipulation performance.
-- We conduct a consistency distillation process to unlock the model’s capabilities of fast inference.
-- We identify the inefficient iteration as the bottleneck of Jacobi decoding’s speedup and propose the early-exit decoding to solve it.
-</div>
-</div>
 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
