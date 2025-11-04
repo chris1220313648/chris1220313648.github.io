@@ -42,7 +42,7 @@ I am Jiayi Chen, a graduate in Automation from Tongji University (Class of 2019)
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/survey.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[TowardsaUnifiedUnderstanding of Robot Manipulation: A Comprehensive Survey](https://arxiv.org/abs/2510.10903)
+[Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey](https://arxiv.org/abs/2510.10903)
 
 Shuanghao Bai, Wenxuan Song, Jiayi Chen, Yuheng Ji, Zhide Zhong, Jin Yang, Han Zhao, Wanqi Zhou, Wei Zhao, Zhe Li, Pengxiang Ding, Cheng Chi, Haoang Li, Chang Xu, Xiaolong Zheng, Donglin Wang, Shanghang Zhang, Badong Chen
 </div>
